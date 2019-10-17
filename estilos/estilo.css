@@ -1,0 +1,101 @@
+/*--- formatação geral ---*/
+#body {
+    background-color: #939393;
+}
+
+/*--- Barra de navegação ---*/
+.navbar { 
+    opacity: 0.9;
+    padding: 1px;
+
+}
+
+.navbar-nav a:hover{
+    background-color: #60DD44;
+}
+.navbar-nav li{
+    padding-right: .9rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: black;
+    padding-top: .8rem;
+}
+
+/*--- Texto do carrossel de imagens ---*/
+.carousel-caption {
+    text-transform: uppercase;
+    top: 30%;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+/*--- formatação do botão do carrossel de imagens ---*/
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+}
+
+/*--- formatação da sessão unidades ---*/
+#unidades {
+    background-color: #f0f0f0;
+}
+
+/*--- formatação seção planos ---*/
+.heading {
+    color: white;
+    text-align: center;
+}
+
+#planos p,h4{
+   color: black;
+}
+
+#planos {
+    background-color: #73AC9A;
+}
+
+#planos button{
+    border: none;
+    background-color: #35605A;
+}
+
+#planos h5{
+    color: black;
+}
+
+#planos h6{
+    color: white;
+}
+
+.card text-center{
+    padding-left: 10px;
+}
+
+.row {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*--- formatação seção contato ---*/
+#contato form {
+    border-right: 4px solid black;
+    border-radius: 10px;
+    background-color: #f9f5f5;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/*--- formatação do rodapé ---*/
+footer, h4 {
+    background-color: #5E6870;
+    color: white;
+}
+
+footer img{
+    padding-right: 10px;
+}
+
+#face:hover{
+    background-image: url(D:\Site web\imagens\social\facebook-color.jpg);
+}
+
